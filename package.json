@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-website",
+  "version": "1.0.0",
+  "description": "An example website built with bootstrap.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xBromsson/bootstrap-website.git"
+  },
+  "keywords": [
+    "website",
+    "bootstrap",
+    "javascript",
+    "html",
+    "css",
+    "portfolio",
+    "web",
+    "developer"
+  ],
+  "author": "Marvin Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xBromsson/bootstrap-website/issues"
+  },
+  "homepage": "https://github.com/xBromsson/bootstrap-website#readme"
+}
