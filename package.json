@@ -4,7 +4,8 @@
   "description": "An example website built with bootstrap.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/xBromsson/bootstrap-website#readme",
   "dependencies": {
-    "bootstrap": "^5.3.1"
+    "bootstrap": "^5.3.1",
+    "live-server": "^1.2.2"
   }
 }
