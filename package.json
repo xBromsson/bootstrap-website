@@ -28,7 +28,9 @@
   },
   "homepage": "https://github.com/xBromsson/bootstrap-website#readme",
   "dependencies": {
-    "bootstrap": "^5.3.1",
+    "bootstrap": "^5.3.1"
+  },
+  "devDependencies": {
     "live-server": "^1.2.2"
   }
 }

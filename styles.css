@@ -5,10 +5,27 @@ body {
   padding: 0;
 }
 
-.hero-background {
+.min-h-50 {
+  min-height: 50%;
+}
+
+.bg-fit-contain {
+  background-size: contain;
+}
+
+.bg-fit-cover {
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-repeat-no {
+  background-repeat: no-repeat;
+}
+
+/* .hero-background {
   background-image: url("./assets/images/hero.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 60%;
-}
+} */
