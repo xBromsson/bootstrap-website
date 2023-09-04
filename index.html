@@ -12,7 +12,7 @@
 
     <script src="./javascript.js" defer></script>
   </head>
-  <body>
+  <body class="container-fluid">
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md bg-body-tertiary">
       <div class="container-fluid">
@@ -42,117 +42,111 @@
       </div>
     </nav>
 
-    <!-- HERO SECTION -->
-    <div
-      class="container-fluid d-flex flex-column justify-content-center h-50 p-5"
-    >
-      <h1>Hello, world!</h1>
-      <p>This container has a background image.</p>
-    </div>
-
-    <!-- FEATURES SECTION -->
-    <div class="container-fluid d-flex flex-column bg-light min-h-50 p-5">
-      <h2 class="text-center">Features</h2>
-      <div class="row flex-grow-1 my-5">
-        <div class="col d-flex flex-column justify-content-center">
-          <h3>Feature 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus iure officiis pariatur laborum. Aliquam illo, minus
-            quis nisi, perspiciatis voluptas minima hic nulla, qui explicabo
-            repellat quibusdam magnam. Eligendi, minima.
-          </p>
-        </div>
-        <div
-          class="col bg-fit-cover bg-repeat-no"
-          style="background-image: url(./assets/images/hero.png)"
-        ></div>
-      </div>
-      <div class="row flex-grow-1 my-2">
-        <div class="col d-flex flex-column justify-content-center">
-          <h3>Feature 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus iure officiis pariatur laborum. Aliquam illo, minus
-            quis nisi, perspiciatis voluptas minima hic nulla, qui explicabo
-            repellat quibusdam magnam. Eligendi, minima.
-          </p>
-        </div>
-        <div
-          class="col bg-fit-cover bg-repeat-no"
-          style="background-image: url(./assets/images/hero.png)"
-        ></div>
-      </div>
-      <div class="row flex-grow-1 my-2">
-        <div class="col d-flex flex-column justify-content-center">
-          <h3>Feature 1</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus iure officiis pariatur laborum. Aliquam illo, minus
-            quis nisi, perspiciatis voluptas minima hic nulla, qui explicabo
-            repellat quibusdam magnam. Eligendi, minima.
-          </p>
-        </div>
-        <div
-          class="col bg-fit-cover bg-repeat-no"
-          style="background-image: url(./assets/images/hero.png)"
-        ></div>
-      </div>
-    </div>
-
-    <!-- CARD SECTION -->
-    <div
-      class="container-fluid d-flex flex-column bg-primary justify-content-center py-5 px-4 min-h-50"
-    >
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-        <!-- CARD 1 -->
+    <div class="container">
+      <!-- HERO SECTION -->
+      <div class="row align-content-center" style="min-height: 500px">
         <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">Card 1</div>
-              <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis est quam aut consectetur itaque saepe quo.
-                Voluptates suscipit amet autem, non ea deleniti vel illum
-                architecto officia aliquam possimus eligendi.
+          <h1 class="fs-1">Hello, world!</h1>
+          <p>This container has a background image.</p>
+        </div>
+      </div>
+
+      <!-- FEATURES SECTION -->
+      <div class="row my-5" style="min-height: 300px">
+        <div class="row"><h2 class="text-center fs-1">Features</h2></div>
+
+        <div class="row align-items-center" style="min-height: 600px">
+          <div class="col">
+            <h3>Feature 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus iure officiis pariatur laborum. Aliquam illo, minus
+              quis nisi, perspiciatis voluptas minima hic nulla, qui explicabo
+              repellat quibusdam magnam. Eligendi, minima.
+            </p>
+          </div>
+          <div class="col-4 d-flex justify-content-end">
+            <img
+              src="./assets/images/hero.png"
+              class="img-fluid"
+              style="max-height: 400px"
+            />
+          </div>
+        </div>
+        <div class="row flex-row-reverse align-items-center">
+          <div class="col px-5">
+            <h3 class="fs-2">Feature 1</h3>
+            <p class="fs-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus iure officiis pariatur laborum. Aliquam illo, minus
+              quis nisi, perspiciatis voluptas minima hic nulla, qui explicabo
+              repellat quibusdam magnam. Eligendi, minima.
+            </p>
+          </div>
+          <div class="col-sm-6 d-flex justify-content-start">
+            <img
+              src="./assets/images/hero.png"
+              class="img-fluid"
+              style="max-height: 400px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD SECTION -->
+      <div
+        class="container-fluid d-flex flex-column bg-primary justify-content-center align-items-center py-5 min-h-50"
+      >
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <!-- CARD 1 -->
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">Card 1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis est quam aut consectetur itaque saepe quo.
+                  Voluptates suscipit amet autem, non ea deleniti vel illum
+                  architecto officia aliquam possimus eligendi.
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- CARD 2 -->
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">Card 1</div>
-              <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis est quam aut consectetur itaque saepe quo.
-                Voluptates suscipit amet autem, non ea deleniti vel illum
-                architecto officia aliquam possimus eligendi.
+          <!-- CARD 2 -->
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">Card 1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis est quam aut consectetur itaque saepe quo.
+                  Voluptates suscipit amet autem, non ea deleniti vel illum
+                  architecto officia aliquam possimus eligendi.
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- CARD 2 -->
-        <div class="col">
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title">Card 1</div>
-              <div class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis est quam aut consectetur itaque saepe quo.
-                Voluptates suscipit amet autem, non ea deleniti vel illum
-                architecto officia aliquam possimus eligendi.
+          <!-- CARD 2 -->
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <div class="card-title">Card 1</div>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis est quam aut consectetur itaque saepe quo.
+                  Voluptates suscipit amet autem, non ea deleniti vel illum
+                  architecto officia aliquam possimus eligendi.
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- END OF CARDS -->
+      <!-- END OF CARDS -->
 
-    <div class="container-fluid py-5 px-4 h-50"></div>
+      <div class="container-fluid py-5 px-4 h-50"></div>
+    </div>
   </body>
 </html>
