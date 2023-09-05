@@ -1,6 +1,6 @@
-# 🎲 DnD 5e Spell List
+# 🌐 INTER - Bootstrap Website Example
 
-![Static Badge](https://img.shields.io/badge/status%3A-stable_beta-green)
+![Static Badge](https://img.shields.io/badge/status%3A-stable-green)
 
 ## 📖 About
 
